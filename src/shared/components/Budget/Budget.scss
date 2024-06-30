@@ -1,0 +1,15 @@
+.budgetForm{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    &__input{
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        padding-left: 10px;
+        background-color: #1a1a1a;
+    }
+}

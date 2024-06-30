@@ -1,0 +1,23 @@
+.expenseForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+
+    &__inputs {
+        display: flex;
+        gap: 20px;
+
+        &__inp {
+            width: 250px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            padding-left: 10px;
+            background-color: #1a1a1a;
+        }
+    }
+
+}
